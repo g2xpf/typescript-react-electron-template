@@ -78,9 +78,9 @@ async function createWindow() {
 
   // Hot Reloading
   if (isDev) {
-    // 'node_modules/.bin/electronPath'
     const electronPath = path.join(
       __dirname,
+      "..",
       "..",
       "node_modules",
       "electron",
